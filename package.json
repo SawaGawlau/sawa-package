@@ -5,10 +5,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "/dist"
+    "dist/**/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specifed\" && exit 1"
+    "test": "echo \"Error: no test specifed\" && exit 1",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
     "url": "https://github.com/SawaGawlau/sawa-package/issues"
   },
   "homepage": "https://github.com/SawaGawlau/sawa-package#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^4.6.2"
   }
 }
