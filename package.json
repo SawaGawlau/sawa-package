@@ -4,10 +4,12 @@
   "description": "My first npm typescipt package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["/dist"],
-
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specifed\" && exit 1"},
+    "test": "echo \"Error: no test specifed\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SawaGawlau/sawa-package.git"
@@ -18,4 +20,8 @@
   "bugs": {
     "url": "https://github.com/SawaGawlau/sawa-package/issues"
   },
-  "homepage": "https://github.com/SawaGawlau/sawa-package#readme"}
+  "homepage": "https://github.com/SawaGawlau/sawa-package#readme",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
+}
