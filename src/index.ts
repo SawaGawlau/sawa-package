@@ -1,3 +1,4 @@
-export const Greeter = (name: string) => {
-  `Hello ${name}`;
+export function hello(name: string): string {
+  const greeter: string = `Hello ${name}`
+  return greeter
 };
