@@ -1,8 +1,9 @@
 {
   "name": "sawa-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My first npm typescipt package",
   "main": "dist/index.js",
+  "bin": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/**/*"
@@ -16,8 +17,7 @@
     "url": "git+https://github.com/SawaGawlau/sawa-package.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "sawagawlau",
   "bugs": {
     "url": "https://github.com/SawaGawlau/sawa-package/issues"
   },
